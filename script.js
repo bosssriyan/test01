@@ -31,8 +31,8 @@ Promise.all([
 ]).then(()=>window.CLAPPR_READY=true);
 
 const urls=[
-  "https://raw.githubusercontent.com/munim-sah75/Cofs_TV/refs/heads/main/fancode.m3u",
-  "https://raw.githubusercontent.com/biostartvworld/playlist/refs/heads/main/playlist.m3u"
+  "https://raw.githubusercontent.com/bosssriyan/bdix-folder/refs/heads/main/fancode.m3u",
+  "https://raw.githubusercontent.com/bosssriyan/bdix-folder/refs/heads/main/playlist.m3u"
 ];
 
 let channels=[];
@@ -218,3 +218,4 @@ document.addEventListener("DOMContentLoaded",()=>{
   tg.appendChild(img);
   document.body.appendChild(tg);
 });
+
